@@ -1,0 +1,184 @@
+
+body{
+    margin: 0;
+    font-family: "Roboto", Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+
+h1{
+    margin: 0;
+}
+
+.main-flex{
+    
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background-color: #1F2937;
+}
+
+.nav{
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 0 10vw 0 10vw;
+}
+
+.hero{
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.hero-text{
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.info{
+    padding: 30px 10vw 80px 10vw;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 100%;
+    aspect-ratio: 1/1;
+    min-width: 0;
+    border: #3882F6 5px solid;
+    border-radius: 25px;
+}
+
+.boxes{
+    gap: 40px;
+    
+}
+
+.box-container{
+    gap: 20px;
+    flex: 1 1 200px;
+    min-width: 0;
+    max-width: 200px;
+}
+
+.box-container p{
+    text-align: center;
+    flex-shrink: 1;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    padding: 60px 15vw 60px 15vw;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #505866;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-name{
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    border-radius: 25px;
+    margin: 50px 15vw;
+    padding: 30px 10vw;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-to-action h2,p{
+    margin: 0;
+}
+
+.call-to-action-button{
+    background-color: #3882F6;
+    border: 2px white solid;
+    border-radius: 10px;
+    color: #E5E7EB;
+    padding: 10px 30px;
+   
+    white-space: nowrap;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-logo{
+    font-weight: 900;
+}
+
+.white-text{
+    color: #F9FAF8;
+}
+
+.gray-text{
+    color: #E5E7EB;
+}
+
+.blue-text{
+    color: #3882F6;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    border: 0;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 8px 30px;
+}
+
+.hero-img-placeholder{
+    width: 500px;
+    
+    background-color: #e5e7eb77;
+    padding: 50px;
+
+}
+
+.side-padding{
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.spacer{
+    flex-grow: 1;
+}
